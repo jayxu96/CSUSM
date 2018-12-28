@@ -1,0 +1,112 @@
+Script started on Fri 05 Oct 2018 08:42:22 PM PDT
+]0;xu026@empress:~/Cs421HW/HW2BFiles/Prog2[?1034h[xu026@empress Prog2]$ ls
+[0m[01;32ma.out[0m  dfa.txt  @instructions  td.cpp  ,test2.txt  trs.txt
+]0;xu026@empress:~/Cs421HW/HW2BFiles/Prog2[xu026@empress Prog2]$ g++ td.cpp
+]0;xu026@empress:~/Cs421HW/HW2BFiles/Prog2[xu026@empress Prog2]$ ./a.out
+This is a table driven scanner. Needs trs.txt and dfa.txt.
+States are 0 to 9 and chars are a to d
+         a b c d
+State 0: 0 1     
+State 1:         
+State 2:     2 3 
+State 3:         
+State 4:         
+State 5:         
+State 6:         
+State 7:         
+State 8:         
+State 9:         
+Token abs: 0 is start and end is 1
+Token cds: 2 is start and end is 3
+.....done reading tables....
+@@Enter a string: ab
+Trying dfa abs-------------
+state: 0 char: a
+new state: 0
+state: 0 char: b
+new state: 1
+Found token abs
+do control-C to quit
+@@Enter a string: aab
+Trying dfa abs-------------
+state: 0 char: a
+new state: 0
+state: 0 char: a
+new state: 0
+state: 0 char: b
+new state: 1
+Found token abs
+do control-C to quit
+@@Enter a string: abc
+Trying dfa abs-------------
+state: 0 char: a
+new state: 0
+state: 0 char: b
+new state: 1
+state: 1 char: c
+new state: -1
+Trying dfa cds-------------
+state: 2 char: a
+new state: -1
+Lexical error!
+do control-C to quit
+@@Enter a string: cd
+Trying dfa abs-------------
+state: 0 char: c
+new state: -1
+Trying dfa cds-------------
+state: 2 char: c
+new state: 2
+state: 2 char: d
+new state: 3
+Found token cds
+do control-C to quit
+@@Enter a string: ccd
+Trying dfa abs-------------
+state: 0 char: c
+new state: -1
+Trying dfa cds-------------
+state: 2 char: c
+new state: 2
+state: 2 char: c
+new state: 2
+state: 2 char: d
+new state: 3
+Found token cds
+do control-C to quit
+@@Enter a string: cdd
+Trying dfa abs-------------
+state: 0 char: c
+new state: -1
+Trying dfa cds-------------
+state: 2 char: c
+new state: 2
+state: 2 char: d
+new state: 3
+state: 3 char: d
+new state: -1
+Lexical error!
+do control-C to quit
+@@Enter a string: ab cd
+Trying dfa abs-------------
+state: 0 char: a
+new state: 0
+state: 0 char: b
+new state: 1
+Found token abs
+do control-C to quit
+@@Enter a string: Trying dfa abs-------------
+state: 0 char: c
+new state: -1
+Trying dfa cds-------------
+state: 2 char: c
+new state: 2
+state: 2 char: d
+new state: 3
+Found token cds
+do control-C to quit
+@@Enter a string: ^C
+]0;xu026@empress:~/Cs421HW/HW2BFiles/Prog2[xu026@empress Prog2]$ exit
+exit
+
+Script done on Fri 05 Oct 2018 08:43:33 PM PDT

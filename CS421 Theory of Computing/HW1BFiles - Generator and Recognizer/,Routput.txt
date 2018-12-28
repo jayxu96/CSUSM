@@ -1,0 +1,36 @@
+Script started on Thu 13 Sep 2018 10:53:38 PM PDT
+]0;xu026@empress:~/cs421HW[?1034h[xu026@empress cs421HW]$ ls
+[0m[01;32ma.out[0m  recognizer.cpp  ,Routput.txt
+]0;xu026@empress:~/cs421HW[xu026@empress cs421HW]$ g++ recognizer.cpp 
+]0;xu026@empress:~/cs421HW[xu026@empress cs421HW]$ ./a.out
+Please enter a string, enter 'exit' to stop: 
+0
+Your input is: 0
+This is a binary number
+Please enter a string, enter 'exit' to stop: 
+1
+Your input is: 1
+This is a binary number
+Please enter a string, enter 'exit' to stop: 
+00110
+Your input is: 00110
+This is a binary number
+Please enter a string, enter 'exit' to stop: 
+2
+Your input is: 2
+This is not a binary number
+Please enter a string, enter 'exit' to stop: 
+02
+Your input is: 02
+This is not a binary number
+Please enter a string, enter 'exit' to stop: 
+31
+Your input is: 31
+This is not a binary number
+Please enter a string, enter 'exit' to stop: 
+exit
+Your input is: exit
+]0;xu026@empress:~/cs421HW[xu026@empress cs421HW]$ exit
+exit
+
+Script done on Thu 13 Sep 2018 10:55:03 PM PDT
