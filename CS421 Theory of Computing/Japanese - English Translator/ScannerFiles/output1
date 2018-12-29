@@ -1,0 +1,114 @@
+Script started on Thu 13 Dec 2018 06:22:40 PM PST
+]0;xu026@empress:~/Cs421HW/ScannerFiles[?1034h[xu026@empress ScannerFiles]$ ./a.out
+Enter the input file name: scannertest1
+Type is:PRONOUN
+Word is:watashi
+Type is:SUBJECT
+Word is:wa
+Type is:WORD1
+Word is:rika
+Type is:IS
+Word is:desu
+Type is:PERIOD
+Word is:.
+Type is:PRONOUN
+Word is:watashi
+Type is:SUBJECT
+Word is:wa
+Type is:WORD1
+Word is:sensei
+Type is:IS
+Word is:desu
+Type is:PERIOD
+Word is:.
+Type is:PRONOUN
+Word is:watashi
+Type is:SUBJECT
+Word is:wa
+Type is:WORD1
+Word is:ryouri
+Type is:OBJECT
+Word is:o
+Type is:WORD2
+Word is:yarI
+Type is:VERB
+Word is:masu
+Type is:PERIOD
+Word is:.
+Type is:PRONOUN
+Word is:watashi
+Type is:SUBJECT
+Word is:wa
+Type is:WORD1
+Word is:gohan
+Type is:OBJECT
+Word is:o
+Type is:WORD1
+Word is:seito
+Type is:DESTINATION
+Word is:ni
+Type is:WORD2
+Word is:agE
+Type is:VERBPAST
+Word is:mashita
+Type is:PERIOD
+Word is:.
+Type is:CONNECTOR
+Word is:shikashi
+Type is:WORD1
+Word is:seito
+Type is:SUBJECT
+Word is:wa
+Type is:WORD2
+Word is:yorokobI
+Type is:VERBPASTNEG
+Word is:masendeshita
+Type is:PERIOD
+Word is:.
+Type is:CONNECTOR
+Word is:dakara
+Type is:PRONOUN
+Word is:watashi
+Type is:SUBJECT
+Word is:wa
+Type is:WORD1
+Word is:kanashii
+Type is:WAS
+Word is:deshita
+Type is:PERIOD
+Word is:.
+Type is:CONNECTOR
+Word is:soshite
+Type is:PRONOUN
+Word is:watashi
+Type is:SUBJECT
+Word is:wa
+Type is:WORD1
+Word is:toire
+Type is:DESTINATION
+Word is:ni
+Type is:WORD2
+Word is:ikI
+Type is:VERBPAST
+Word is:mashita
+Type is:PERIOD
+Word is:.
+Type is:PRONOUN
+Word is:watashi
+Type is:SUBJECT
+Word is:wa
+Type is:WORD2
+Word is:nakI
+Type is:VERBPAST
+Word is:mashita
+Type is:PERIOD
+Word is:.
+End of file is encountered.
+]0;xu026@empress:~/Cs421HW/ScannerFiles[xu026@empress ScannerFiles]$ exit.
+bash: exit.: command not found
+]0;xu026@empress:~/Cs421HW/ScannerFiles[xu026@empress ScannerFiles]$ eixt
+bash: eixt: command not found
+]0;xu026@empress:~/Cs421HW/ScannerFiles[xu026@empress ScannerFiles]$ exit
+exit
+
+Script done on Thu 13 Dec 2018 06:23:05 PM PST

@@ -1,0 +1,192 @@
+Script started on Thu 13 Dec 2018 06:24:48 PM PST
+]0;xu026@empress:~/Cs421HW/ScannerFiles[?1034h[xu026@empress ScannerFiles]$ ./a.out
+Enter the input file name: scannertest2
+Type is:WORD1
+Word is:daigaku
+Lexical error: college is not a valid token.
+Type is:ERROR
+Word is:college
+Type is:WORD1
+Word is:kurasu
+Lexical error: class is not a valid token.
+Type is:ERROR
+Word is:class
+Type is:WORD1
+Word is:hon
+Lexical error: book is not a valid token.
+Type is:ERROR
+Word is:book
+Type is:WORD1
+Word is:tesuto
+Lexical error: test is not a valid token.
+Type is:ERROR
+Word is:test
+Type is:WORD1
+Word is:ie
+Lexical error: home* is not a valid token.
+Type is:ERROR
+Word is:home*
+Type is:WORD1
+Word is:isu
+Lexical error: chair is not a valid token.
+Type is:ERROR
+Word is:chair
+Type is:WORD1
+Word is:seito
+Lexical error: student is not a valid token.
+Type is:ERROR
+Word is:student
+Type is:WORD1
+Word is:sensei
+Lexical error: teacher is not a valid token.
+Type is:ERROR
+Word is:teacher
+Type is:WORD1
+Word is:tomodachi
+Lexical error: friend is not a valid token.
+Type is:ERROR
+Word is:friend
+Type is:WORD1
+Word is:jidoosha
+Lexical error: car is not a valid token.
+Type is:ERROR
+Word is:car
+Type is:WORD1
+Word is:gyuunyuu
+Lexical error: milk is not a valid token.
+Type is:ERROR
+Word is:milk
+Type is:WORD1
+Word is:sukiyaki
+Type is:WORD1
+Word is:tenpura
+Type is:WORD1
+Word is:sushi
+Type is:WORD1
+Word is:biiru
+Lexical error: beer is not a valid token.
+Type is:ERROR
+Word is:beer
+Type is:WORD1
+Word is:sake
+Type is:WORD1
+Word is:tokyo
+Type is:WORD1
+Word is:kyuushuu
+Lexical error: Osaka is not a valid token.
+Type is:ERROR
+Word is:Osaka
+Type is:WORD1
+Word is:choucho
+Lexical error: butterfly is not a valid token.
+Type is:ERROR
+Word is:butterfly
+Type is:WORD1
+Word is:an
+Type is:WORD1
+Word is:idea
+Type is:WORD1
+Word is:yasashii
+Lexical error: easy is not a valid token.
+Type is:ERROR
+Word is:easy
+Type is:WORD1
+Word is:muzukashii
+Lexical error: difficult is not a valid token.
+Type is:ERROR
+Word is:difficult
+Type is:WORD1
+Word is:ureshii
+Lexical error: pleased is not a valid token.
+Type is:ERROR
+Word is:pleased
+Type is:WORD1
+Word is:shiawase
+Lexical error: happy is not a valid token.
+Type is:ERROR
+Word is:happy
+Type is:WORD1
+Word is:kanashii
+Lexical error: sad is not a valid token.
+Type is:ERROR
+Word is:sad
+Type is:WORD1
+Word is:omoi
+Lexical error: heavy is not a valid token.
+Type is:ERROR
+Word is:heavy
+Type is:WORD1
+Word is:oishii
+Lexical error: delicious is not a valid token.
+Type is:ERROR
+Word is:delicious
+Type is:WORD1
+Word is:tennen
+Lexical error: natural is not a valid token.
+Type is:ERROR
+Word is:natural
+Type is:WORD2
+Word is:nakI
+Lexical error: cry is not a valid token.
+Type is:ERROR
+Word is:cry
+Type is:WORD2
+Word is:ikI
+Lexical error: go* is not a valid token.
+Type is:ERROR
+Word is:go*
+Type is:WORD2
+Word is:tabE
+Lexical error: eat is not a valid token.
+Type is:ERROR
+Word is:eat
+Type is:WORD2
+Word is:ukE
+Lexical error: take* is not a valid token.
+Type is:ERROR
+Word is:take*
+Type is:WORD2
+Word is:kakI
+Lexical error: write is not a valid token.
+Type is:ERROR
+Word is:write
+Type is:WORD2
+Word is:yomI
+Lexical error: read is not a valid token.
+Type is:ERROR
+Word is:read
+Type is:WORD2
+Word is:nomI
+Lexical error: drink is not a valid token.
+Type is:ERROR
+Word is:drink
+Type is:WORD2
+Word is:agE
+Lexical error: give is not a valid token.
+Type is:ERROR
+Word is:give
+Type is:WORD2
+Word is:moraI
+Lexical error: receive is not a valid token.
+Type is:ERROR
+Word is:receive
+Type is:WORD2
+Word is:butsI
+Lexical error: hit is not a valid token.
+Type is:ERROR
+Word is:hit
+Type is:WORD2
+Word is:kerI
+Lexical error: kick is not a valid token.
+Type is:ERROR
+Word is:kick
+Type is:WORD2
+Word is:shaberI
+Lexical error: talk is not a valid token.
+Type is:ERROR
+Word is:talk
+End of file is encountered.
+]0;xu026@empress:~/Cs421HW/ScannerFiles[xu026@empress ScannerFiles]$ exit
+exit
+
+Script done on Thu 13 Dec 2018 06:24:58 PM PST

@@ -1,0 +1,15 @@
+
+translator.cpp indicates what you need to add to the parser.cpp
+
+Make a copy of parser.cpp and do the additions.
+
+Use the partCtest cases (read my comments in the files.)
+
+test1results gives you what you should get as the IR result of
+partBtest1
+
+Compile your project on Empress.
+
+
+
+
