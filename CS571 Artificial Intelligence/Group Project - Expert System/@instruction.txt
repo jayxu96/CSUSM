@@ -1,0 +1,12 @@
+This is a knowledge-based expert system to help children correctly identify a bird they see. This expert system will ask the user several questions about features of a bird and returns the most likely name with certainty.
+
+How to use?
+
+1. Put our expert system file into swi prolog file folder.
+2. In swi prolog, using command “[identify].” to compile our expert system file.
+3. When compilation is done and prolog returns true, now you can execute our expert system.
+4. Enter the command “solve(identify_bird(Bird)).” to execute our expert system.
+5. Following the help instruction, when you see questions for diets, habitat, beak shape, beak size, talon sharpness, just enter yes (y.) or no (n.). 
+When you see question “wingspan”, enter the size number for it.
+When you see question “color”, enter the main color of that bird, for instance, black, white, brown, etc.
+6. If the system identifies the bird, it will return the name of the bird with certainty, and you can answer yes (y.) to trace the reasoning to goal.
