@@ -1,0 +1,36 @@
+Script started on Mon 24 Sep 2018 10:54:54 AM PDT
+]0;xu026@empress:~ [?1034h[xu026@empress ~]$ bp
+
+BinProlog, #12.00 Copyright (C) Paul Tarau 1992-2012.
+Open-sourced under GPL v.3 licence at
+http://www.gnu.org/licenses/gpl-3.0.txt.
+(C-ified standalone)
+(with heap GC enabled) (64 bits)
+Detected hostname: undetected (type bp -p10 to detect host)
+Start loading system code from <internal code array>.
+Finished loading system code.
+Started Prolog Runtime System 1.
+?- [hw2].
+compiling(to(mem),hw2.pl,...)
+bytes_used(code(504),strings(26),symbols(48),htable(408),total(986))
+compile_time(0)
+?- X=[a,b,c],count(X,M),count_all(X,N).
+X=[a,b,c]
+M=3,
+N=3;
+
+no
+?- X=[a,b,[1,[2,3],c]],count(X,M),count_all(X,N).
+X=[a,b,[1,[2,3],c]],
+M=3,
+N=6;
+
+no
+?- halt.
+
+Prolog execution halted(0). CPU time = 0.10s
+
+]0;xu026@empress:~ [xu026@empress ~]$ exit
+exit
+
+Script done on Mon 24 Sep 2018 10:56:42 AM PDT

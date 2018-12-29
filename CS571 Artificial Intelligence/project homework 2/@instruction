@@ -1,0 +1,1 @@
+Write a PROLOG program to count the elements in a list (a list within the list counts as one element). Write another program to count the atoms in a list (count the elements within any sublist). (Hint: there are several meta-predicates such as atom() or atomic() that can be helpful.)

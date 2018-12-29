@@ -1,0 +1,36 @@
+Welcome to SWI-Prolog (threaded, 64 bits, version 7.6.4)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- [farmer].
+true.
+
+?- getPath([a,a,a,a],X),printPath(X).
+Farmer crosses with goat.
+Farmer crosses alone.
+Farmer crosses with wolf.
+Farmer crosses with goat.
+Farmer crosses with cabbage.
+Farmer crosses alone.
+Farmer crosses with goat.
+X = [goat, farmer, wolf, goat, cabbage, farmer, goat] .
+
+?-
+
+?- [farmer_cabbage].
+true.
+
+?- getPath([a,a,a,a],X),printPath(X).
+Farmer crosses with goat.
+Farmer crosses alone.
+Farmer crosses with cabbage.
+Farmer crosses with goat.
+Farmer crosses with wolf.
+Farmer crosses alone.
+Farmer crosses with goat.
+X = [goat, farmer, cabbage, goat, wolf, farmer, goat] .
+
+?- 

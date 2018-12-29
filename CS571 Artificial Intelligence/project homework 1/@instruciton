@@ -1,0 +1,12 @@
+The following story is from N. Wirth’s (1976) Algorithms + data structures = programs.
+I married a widow (let’s call her W) who has a grown-up daughter (call her D). My father (F), 
+who visited us quite often, fell in love with my step-daughter and married her. Hence my father
+became my son-in-law and my step-daughter became my mother. Some months later, my wife gave 
+birth to a son (S1), who became the brother-in-law of my father, as well as my uncle. The wife 
+of my father, that is, my step-daughter, also had a son (S2).
+
+
+Using predicate calculus, create a set of expressions (facts) that represent the situation in 
+the above story. Add expressions (rules) defining basic family relationships such as the 
+definition of father-in-law and use modus ponens on this system to prove the conclusion that 
+“I am my own grandfather.” 
