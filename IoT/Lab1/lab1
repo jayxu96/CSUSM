@@ -1,0 +1,38 @@
+__asm int my_sqrt(int x){
+    push    {r4, r5, r6}
+    mov     r1, r0              r1 = x
+    mov     r2, #0              r2 = done = 0
+    mov     r3, #0              r3 = a = 0;
+    mov     r4, #65536          r4 = b = 2 ^ 16
+    mov     r5, #0              r5 = old = 0;
+    sub     r0, r2, #1          r0 = c = -1
+
+    LOOP:
+        mov     r5, r0          old = c
+        add     r6,r3,r4        r6 = a + b
+        asr     r6              r6/2
+        mov     r0, r6          c = (a+b)/2
+
+        mul     r6, r0, r0      temp = c * c
+        cmp     r6, r1          compare c*c and x
+        beq     END             if equal , break loop, return 
+        blt     LESS            if less than, jump to LESS
+
+    GREAT:
+        cmp     r0, r5          compare if c = old
+        beq     END             if equal , return 
+        mov     r4, r0          other wise b = c
+        b       LOOP            jump to loop
+
+    LESS:
+        cmp     r0, r5          compare if c = old
+        beq     END             if equal, return 
+        mov     r3, r4          other wise a = c 
+        b       LOOP            jump to loop
+
+    END:
+        pop     {r4, r5, r6}
+        BX      LR   
+        
+
+}
